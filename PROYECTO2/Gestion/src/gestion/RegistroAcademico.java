@@ -58,7 +58,7 @@ public class RegistroAcademico {
         for(int i=0; i<=numMaterias; i++){
             //Le pedimos los datos que necesitamos al usuario
             System.out.println("Ingrese el nombre de la materia: ");
-            scan.nextLine(); //Agarra el enter del anterior (NO QUITAR)
+            //scan.nextLine(); //Agarra el enter del anterior (NO QUITAR)
             nombre = scan.nextLine();
 
             //Le paso los datos de la materia
