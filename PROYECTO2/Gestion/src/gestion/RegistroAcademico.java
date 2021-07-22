@@ -53,9 +53,10 @@ public class RegistroAcademico {
         //Vamos a preguntarle al usuario cuantas materias desea agregar a la lista
         System.out.println("¿Cuántas materias está cursando este semestre?");
         numMaterias = scan.nextInt();
+        scan.nextLine();
         
         //Agregamos un for loop
-        for(int i=0; i<=numMaterias; i++){
+        for(int i=0; i<numMaterias; i++){
             //Le pedimos los datos que necesitamos al usuario
             System.out.println("Ingrese el nombre de la materia: ");
             //scan.nextLine(); //Agarra el enter del anterior (NO QUITAR)
