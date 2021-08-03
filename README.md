@@ -1,4 +1,4 @@
-# ProyectoFinal
+# Proyecto escolar 
 Sistema de gestión escolar realizado como proyecto final para la materia de modelos de programación orientada a objetos.
 
 **Descripción:**
